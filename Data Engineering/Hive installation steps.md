@@ -6,19 +6,23 @@
 
 Ensure the following are installed:
 
-```java -version
+```
+java -version
 
 hadoop version
 
-brew --version```
+brew --version
+```
 
 You should already have:
 
-```JDK 21
+```
+JDK 21
 
 Hadoop (via Homebrew)
 
-HDFS running successfully```
+HDFS running successfully
+```
 
 ### 2️⃣ Install Hive via Homebrew
 

@@ -8,9 +8,7 @@ Ensure the following are installed:
 
 ```
 java -version
-
 hadoop version
-
 brew --version
 ```
 
@@ -18,23 +16,27 @@ You should already have:
 
 ```
 JDK 21
-
 Hadoop (via Homebrew)
-
 HDFS running successfully
 ```
 
 ### 2️⃣ Install Hive via Homebrew
 
-```brew install hive```
+```
+brew install hive
+```
 
 Verify installation:
 
-```hive --version```
+```
+hive --version
+```
 
 Expected output example:
 
-```Hive 4.2.0```
+```
+Hive 4.2.0
+```
 
 ### 3️⃣ Start HDFS (Very Important)
 
@@ -43,14 +45,15 @@ Before running Hive, HDFS must be running.
 Check:
 
 ```
-
-jps```
+jps
+```
 
 You should see:
 
-```NameNode
-
-DataNode```
+```
+NameNode
+DataNode
+```
 
 If not, start it:
 

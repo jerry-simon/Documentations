@@ -86,32 +86,23 @@ Open:
 Add:
 
 ```
-
 <configuration>
-
-
-
   <property>
-
     <name>hive.server2.enable.doAs</name>
-
     <value>false</value>
-
   </property>
-
-
-
 </configuration>
-
 ```
 
 Save and exit.
 
-```Ctrl + X, Y, Enter```
+```
+Ctrl + X
+Press Y
+Enter
+```
 
 This prevents impersonation errors.
-
-
 
 ### 7️⃣ Start HiveServer2
 
@@ -121,7 +112,7 @@ In Terminal 1:
 
 Leave this terminal running.
 
-8️⃣ Connect Using Beeline
+### 8️⃣ Connect Using Beeline
 
 Open Terminal 2:
 
@@ -147,9 +138,10 @@ Verify:
 
 You must see:
 
-```NameNode
-
-DataNode```
+```
+NameNode
+DataNode
+```
 
 Step 2 — Start HiveServer2
 
@@ -183,59 +175,30 @@ Stop HDFS:
 
 ## 🎯 Quick Mental Model
 
+1. Component	Role
 
+2. HDFS	Storage layer
 
-Component	Role
+3. Hive Metastore	Metadata
 
+4. HiveServer2	Query server
 
-
-HDFS	Storage layer
-
-
-
-Hive Metastore	Metadata
-
-
-
-HiveServer2	Query server
-
-
-
-Beeline	Client
-
-
+5. Beeline	Client
 
 ## Architecture:
 
-
-
 Beeline → HiveServer2 → Metastore → HDFS
-
-
 
 ## 🚀 You Now Have
 
-
-
 A production-style Big Data stack running locally:
 
+1. Java ✔
 
+2. Hadoop ✔
 
-Java ✔
+3. HDFS ✔
 
+4. Hive ✔
 
-
-Hadoop ✔
-
-
-
-HDFS ✔
-
-
-
-Hive ✔
-
-
-
-JDBC access ✔
-
+5. JDBC access ✔

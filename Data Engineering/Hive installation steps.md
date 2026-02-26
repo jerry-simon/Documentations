@@ -1,4 +1,4 @@
-🐝 HIVE INSTALLATION & EXECUTION GUIDE (macOS – Apple Silicon)
+# 🐝 HIVE INSTALLATION & EXECUTION GUIDE (macOS – Apple Silicon)
 ✅ PART 1 — Full Hive Installation & Configuration
 1️⃣ Prerequisites
 Ensure the following are installed:
